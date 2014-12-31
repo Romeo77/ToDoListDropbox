@@ -3,6 +3,7 @@ PODS:
   - Bolts (1.1.3)
   - Facebook-iOS-SDK (3.21.1):
     - Bolts (~> 1.0)
+  - Instabug (3.21)
   - mailgun (1.0.3):
     - AFNetworking (~> 1.1.0)
   - Parse (1.6.0):
@@ -17,6 +18,7 @@ PODS:
 
 DEPENDENCIES:
   - Facebook-iOS-SDK (~> 3.21)
+  - Instabug (~> 3.21)
   - mailgun (~> 1.0.3)
   - Parse (~> 1.6)
   - ParseFacebookUtils (~> 1.6)
@@ -29,6 +31,7 @@ SPEC CHECKSUMS:
   AFNetworking: e1ee63e577c68e1d5004ccedb7367eda41f65943
   Bolts: 3db0a875235e0c9042b013af13af0f00f79b102c
   Facebook-iOS-SDK: 18c26e86ab25c17854a2ee2a8f60562099c6600f
+  Instabug: b6212f318458f753525654353ca6fa16fb0a1494
   mailgun: 5f8d1348f443dcf94d2d3984845f873f5bf18a39
   Parse: f15dfacd941ee8084a5decbef486da8b223c2810
   ParseFacebookUtils: 8d33da72678c4c03a3b94332179dc04548bbd268

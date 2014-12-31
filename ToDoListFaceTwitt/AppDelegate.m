@@ -25,12 +25,14 @@
     [PFTwitterUtils initializeWithConsumerKey:@"YyvoW8VelrqrlO8f91xEvxdNe"
                                consumerSecret:@"gLZI37ssGqUcwr2RZlFoVcu5PO3rM0vodZ0teo3UuMLSdVoY1d"];
     
-    
+    [Instabug startWithToken:@"ce68bd059bb8ffd3ab125d54d366d034"captureSource:IBGCaptureSourceUIKit invocationEvent:IBGInvocationEventShake];
     
     if([PFUser currentUser].isAuthenticated || [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]] || [PFTwitterUtils isLinkedWithUser:[PFUser currentUser]]) {
         
         [self setNewRootVc:[self createToDoNavVc]animated:NO];
     }
+    
+     application.applicationSupportsShakeToEdit = YES;
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(userDidLogin) name:notificationLogin object:nil];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(userDidLogout) name:notificationLogout object:nil];

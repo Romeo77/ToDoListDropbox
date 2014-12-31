@@ -10,7 +10,7 @@
 
 typedef void ((^TodoItemSaveBlock)(NSString *string, UIImage *picture));
 
-@interface ToDoSaveViewController : UIViewController
+@interface ToDoSaveViewController : BaseViewController
 
 @property (copy, nonatomic) TodoItemSaveBlock saveBlock;
 @property (nonatomic, strong) NSString *stringToEdit;

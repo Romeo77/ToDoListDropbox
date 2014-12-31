@@ -8,5 +8,6 @@ pod 'UIAlertView+Blocks', '~> 0.8'
 pod 'mailgun', '~> 1.0.3'
 pod 'ParseFacebookUtils', '~> 1.6'
 pod 'TwilioSDK', '~> 1.2'
+pod 'Instabug', '~> 3.21'
 
 

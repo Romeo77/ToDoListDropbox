@@ -17,11 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+   HUDSHOW
     NSURL *url = [NSURL URLWithString:@"https://www.dropbox.com/s/w76lwg4jof3mp34/filik.html?dl=1"];
     NSURLRequest *requestUrl = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:requestUrl];
     
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {    
+   HUDHIDE
 }
 
 @end

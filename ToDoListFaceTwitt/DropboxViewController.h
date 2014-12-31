@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DropboxViewController : UIViewController
+@interface DropboxViewController : BaseViewController
 
 @end
